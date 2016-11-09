@@ -1,31 +1,47 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
-  <!--
-      Copyright (c) 2015 by André Kilchenmann (http://codepen.io/milchkannen/pen/yYMoLw)
-
-      Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-      The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=0.5">
-  <title>hOrO | CSS and jQuery Clock Template by milchkannen</title>
-
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="script.js" type="text/javascript"></script>
-
-  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css"/>
-  
-  <link href="style.css" rel="stylesheet" type="text/css" />
 <head>
+    <meta charset="UTF-8">
+    <title>horo by milchkannen</title>
+    <!--
+        Copyright (c) 2015 by André Kilchenmann (http://codepen.io/milchkannen/pen/yYMoLw)
+
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    -->
+
+
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700'>
+    <link rel='stylesheet prefetch' href='https://code.getmdl.io/1.1.3/material.light_blue-blue.min.css'>
+
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
-<body id="background">
-  <div class="clock">
-    <div class='hours'></div>
-    <div class='seconds'></div>
-    <div class='minutes'></div>
-  </div>
+
+<body>
+<div class="clock">
+    <span class="hours"></span>
+    <span class="minutes"></span>
+    <span class="seconds"></span>
+</div>
+
+<footer>
+    <p>
+        <a href="http://codepen.io/milchkannen/full/yYMoLw/">hOrO</a> by
+        <a href="http://milchkannen.ch">milchkannen</a>
+        | Background image from <a href="http://unsplash.com">Unsplash</a> (random mode)
+        | Made with
+        <img src="http://milchkannen.ch/assets/images/made-with-coffe.png?v=0970447d37" alt="coffee" title="coffee" class="icon"/>
+    </p>
+</footer>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://storage.googleapis.com/code.getmdl.io/1.1.3/material.min.js'></script>
+
+<script src="js/index.js"></script>
+
 </body>
 </html>

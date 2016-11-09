@@ -1,6 +1,7 @@
-# hOrO Clock Template
-CSS and JS clock template based on my CodePen snippets: http://codepen.io/milchkannen/details/yYMoLw/
-
-![](http://blog.lakto.org/content/images/2015/10/screenshot_010943.png)
-
-But now i will create a fullpage and responsive version of this clock
+# hOrO
+CSS and JS clock template.
+ 
+ [Demo](http://milchkannen.github.io/horo)
+ The code is also on [CodePen](http://codepen.io/milchkannen/details/yYMoLw/)
+ 
+ The background image comes from the [Unsplash](https://unsplash.com) API.

@@ -1,0 +1,72 @@
+body {
+  font-family: 'Roboto';
+  color: #eeeeee;
+  background: url('https://source.unsplash.com/all/?night') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+$border: 6px;
+$hoursSize: 200px;
+$minutesSize: $hoursSize/2;
+$secondsSize: $hoursSize/3;
+.clock {
+  color: #eeeeee;
+  margin-top: 70px;
+  margin-left: 113px;
+  position: relative;
+  .hours,
+  .minutes,
+  .seconds {
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+  }
+  .seconds {
+    width: $secondsSize;
+    height: $secondsSize;
+    top: ($hoursSize / 2) + $border - ($secondsSize / 2);
+    left: ($hoursSize / 2) + $border - ($secondsSize / 2);
+    line-height: 1.5;
+    font-size: $secondsSize / 1.618;
+    z-index: 1;
+    background-color: rgba(222, 222, 222, 0.41);
+  }
+  .minutes {
+    //        background-color: rgba(0, 222, 222, 0.41);
+    width: $minutesSize;
+    height: $minutesSize;
+    top: ($hoursSize / 2) + $border - ($minutesSize / 2);
+    left: ($hoursSize / 2) + $border - ($minutesSize / 2);
+    line-height: 1.5;
+    font-size: $minutesSize / 1.618;
+    z-index: 2;
+  }
+  .hours {
+    width: $hoursSize;
+    height: $hoursSize;
+    line-height: 1.5;
+    font-size: $hoursSize / 1.618;
+    z-index: 0;
+    border: $border solid rgba(244, 244, 244, 1);
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100vw;
+  color: #9e9e9e;
+  a {
+    text-decoration: none;
+    color: #9e9e9e;
+    font-weight: bolder;
+  }
+  p img.icon {
+    width: 32px;
+    height: 32px;
+  }
+}
