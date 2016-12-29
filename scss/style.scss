@@ -14,8 +14,8 @@ $minutesSize: $hoursSize/2;
 $secondsSize: $hoursSize/3;
 .clock {
   color: #eeeeee;
-  margin-top: 70px;
-  margin-left: 113px;
+  margin-top: 128px;
+  margin-left: 128px;
   position: relative;
   .hours,
   .minutes,
@@ -29,7 +29,7 @@ $secondsSize: $hoursSize/3;
     height: $secondsSize;
     top: ($hoursSize / 2) + $border - ($secondsSize / 2);
     left: ($hoursSize / 2) + $border - ($secondsSize / 2);
-    line-height: 1.5;
+    line-height: 1.6;
     font-size: $secondsSize / 1.618;
     z-index: 1;
     background-color: rgba(222, 222, 222, 0.41);
@@ -47,7 +47,7 @@ $secondsSize: $hoursSize/3;
   .hours {
     width: $hoursSize;
     height: $hoursSize;
-    line-height: 1.5;
+    line-height: 1.75;
     font-size: $hoursSize / 1.618;
     z-index: 0;
     border: $border solid rgba(244, 244, 244, 1);
@@ -60,13 +60,16 @@ footer {
   text-align: center;
   width: 100vw;
   color: #9e9e9e;
+  font-size: 11px;
   a {
     text-decoration: none;
     color: #9e9e9e;
     font-weight: bolder;
   }
   p img.icon {
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
+    top: 8px;
+    position: relative;
   }
 }
